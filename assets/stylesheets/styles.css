@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Harleem Deco";
+    src: url(../fonts/Haarlem\ Deco.otf);
+}
+
+body {
+    background-attachment: fixed;
+    background-color: #f7e2ab;
+    background-image: url(../background.jpg);
+    font-size: 100%;
+}
+
+#shadow {
+    box-shadow: 0 0 8px #000000;
+    margin: 2% 4%;
+}
+
+header {
+    background-color: #004063;
+    padding: 0.5% 0;
+}
+
+h1 {
+    color: #d6b371;
+    font-family: "Harleem Deco", serif;
+    font-size: 4.5em;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.left {
+    background-color: #d6b371;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 3%;
+    width: 25%;
+}
+
+nav a {
+    border-bottom: solid 3px #f7e2ab;
+    color: #004063;
+    font-family: "Harleem Deco", serif;
+    font-size: 1.75em;
+    padding: 12% 0 2% 0;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    padding: 6% 0 2% 0;
+}
+
+.active, nav a:hover {
+    border-bottom: solid 3px #014c74;
+}
+
+.right {
+    background-color: #f7e2ab;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4%;
+    width: 75%;
+}
+
+h2 {
+    color: #d6b371;
+    font-family: "Harleem Deco", serif;
+    font-size: 2.75em;
+    line-height: 100%;
+}
+
+p {
+    color: #004063;
+    font-size: 1.125em;
+    line-height: 120%;
+    margin: 0 0 1.5% 0;
+    text-align: justify;
+}
+
+aside {
+    background-color: #014c74;
+    color: #f7e2ab;
+    font-size: 1.125em;
+    padding: 2% 4%;
+}
+
+h3 {
+    color: #d6b371;
+    font-family: "Harleem Deco", serif;
+    font-size: 1.75em;
+    line-height: 100%;
+}
+
+form {
+    padding: 1% 0;
+}
+
+select, input {
+    background-color: #f8f0e3;
+    border: none;
+    color: #004063;
+    margin: 5px 0 20px 0;
+    padding: 0 7px;
+}
+
+button {
+    background-color: #d6b371;
+    border-color: #004063;
+    color: #004063;
+    margin: 10px 5px 0 0;
+}
+
+footer {
+    background-color: #004063;
+    padding: 2% 0;
+}
+
+footer p {
+    color: #d6b371;
+    line-height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+footer a:link {
+    color: #f7e2ab;
+}
+
+footer a:hover {
+    color: #d6b371;
+}
+
+footer a:visited {
+    color: #f8f0e3;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-direction: column;
+    }
+    .left {
+        padding: 10%;
+        width: 100%;
+    }
+    .right {
+        padding: 4% 10%;
+        width: 100%;
+    }
+    p {
+        margin-bottom: 4%;
+    }
+    aside {
+        padding: 4% 10%;
+    }
+    footer {
+        padding: 4% 0;
+    }
+}
