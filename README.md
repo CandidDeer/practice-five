@@ -1,4 +1,4 @@
-# practice-five
-HTML CSS Practice 07.04.2022
+# Practice five
+HTML CSS practice 07.04.2022
 
 [![practice-five](https://img.shields.io/badge/-Website%20in%20action-000000?logo=GitHub&logoColor=ffe0b5&style=flat&labelColor=000000)](https://candiddeer.github.io/practice-five/)
